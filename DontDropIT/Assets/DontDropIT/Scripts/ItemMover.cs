@@ -13,7 +13,8 @@ public class ItemMover : MonoBehaviour
     private Vector3 velocity;
     private bool isDragging;
     private bool isThrown;
-    [SerializeField]private float Xaxis,Yxisx,Zaxis;
+    private float timeDown, timeUp, timeInterval;
+    [SerializeField]private float Xaxis,Yaxis,Zaxis;
     void Update()
     {
         // Check if the left mouse button is pressed
@@ -52,6 +53,7 @@ public class ItemMover : MonoBehaviour
         {
             if (hit.collider.gameObject.tag == "Luggage")
             {
+                timeDown = Time.time;
                 // Get the object and its rigidbody
                 throwGameObject = hit.collider.gameObject;
                 rb = throwGameObject.GetComponent<Rigidbody>();
@@ -77,7 +79,6 @@ public class ItemMover : MonoBehaviour
             }
         }
     }
-
     void OnMouseDrag()
     {
         // Check if the object is being dragged
@@ -96,28 +97,28 @@ public class ItemMover : MonoBehaviour
             // Get the point on the plane where the ray hits
             Vector3 planePoint = ray.GetPoint(distance);
 
-            // Get the position of the object with the offset
-            Vector3 position = planePoint + offset;
+            // Calculate the new velocity based on the change in position over time
+            velocity = (planePoint - throwGameObject.transform.position) ;
 
-            // Move the object to the position
-            throwGameObject.transform.position = position;
-
-            // Calculate the velocity of the object
-            velocity = new Vector3((position.x - rb.position.x)/Xaxis, (position.y - rb.position.y)/Yxisx, (position.z - rb.position.z)/Zaxis)/ Time.fixedDeltaTime;
+            // Move the object to the new position
+          //  throwGameObject.transform.position = planePoint;
         }
     }
+
 
     void OnMouseUp()
     {
         // Check if the object is being dragged
         if (isDragging)
         {
+            timeUp = Time.time;
+            timeInterval = timeDown - timeUp;
             // Set the object's kinematic state to false
             rb.isKinematic = false;
 
             // Apply the velocity to the object's rigidbody
             rb.velocity = velocity;
-
+            rb.AddForce(velocity.x * Xaxis, velocity.y * Yaxis, -velocity.z * Zaxis/timeInterval,ForceMode.Force);
             // Set the dragging flag to false
             isDragging = false;
 

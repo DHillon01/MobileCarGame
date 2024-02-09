@@ -22,7 +22,7 @@ Material:
   - _METALLICGLOSSMAP
   - _METALLICSPECGLOSSMAP
   - _SEGMENTED_ON
-  m_LightmapFlags: 6
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2500
@@ -185,7 +185,7 @@ Material:
     - _OtlWidth: 2.29
     - _OutlineEnabled: 1
     - _OutlineMode: 0
-    - _OutlineWidth: 3.9
+    - _OutlineWidth: 2.8
     - _OverrideShadowColor: 0
     - _Parallax: 0.02
     - _QueueOffset: 0
@@ -232,7 +232,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0.9433962, g: 0.88097674, b: 0.17265925, a: 0}
     - _EmissionColorUI: {r: 1, g: 1, b: 1, a: 1}
     - _FaceFrontDirection: {r: 0, g: 0, b: 1, a: 0}
     - _FaceRightDirection: {r: 1, g: 0, b: 0, a: 0}
