@@ -149,8 +149,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Xaxis: 1
-  Yaxis: 4.27
-  Zaxis: 3
+  Yaxis: 1.51
+  Zaxis: 2
 --- !u!96 &1323342367860400031
 TrailRenderer:
   serializedVersion: 3
@@ -159,7 +159,7 @@ TrailRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1057156317188480060}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -202,23 +202,14 @@ TrailRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.047105964
-        value: 0.17055221
-        inSlope: 1.4044063
-        outSlope: 1.4044063
+        time: 0.02691755
+        value: 0.06977703
+        inSlope: -0.09715319
+        outSlope: -0.09715319
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
-        outWeight: 0.10496046
-      - serializedVersion: 3
-        time: 0.43113428
-        value: 0.22357261
-        inSlope: -0.061461672
-        outSlope: -0.061461672
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        outWeight: 0.1804982
       - serializedVersion: 3
         time: 1
         value: 0.035658717
@@ -233,17 +224,17 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0.6591904, g: 0.16470587, b: 1, a: 1}
-      key1: {r: 0.8827175, g: 0.12175146, b: 0.8962264, a: 1}
-      key2: {r: 0.90196085, g: 0.2784314, b: 0.9058824, a: 0}
+      key0: {r: 1, g: 0.5029669, b: 0.16470587, a: 1}
+      key1: {r: 0.9811321, g: 0.77726305, b: 0.19807759, a: 1}
+      key2: {r: 0.9733053, g: 1, b: 0.15471691, a: 0}
       key3: {r: 0.9982773, g: 1, b: 0.94716984, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
-      ctime0: 11758
-      ctime1: 24672
-      ctime2: 41634
+      ctime0: 8096
+      ctime1: 21395
+      ctime2: 42020
       ctime3: 56283
       ctime4: 0
       ctime5: 0
@@ -261,9 +252,9 @@ TrailRenderer:
       m_ColorSpace: 0
       m_NumColorKeys: 4
       m_NumAlphaKeys: 2
-    numCornerVertices: 33
-    numCapVertices: 33
-    alignment: 1
+    numCornerVertices: 11
+    numCapVertices: 12
+    alignment: 0
     textureMode: 0
     textureScale: {x: 1, y: 1}
     shadowBias: 0

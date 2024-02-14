@@ -15,6 +15,13 @@ public class ItemMover : MonoBehaviour
     private bool isThrown;
     private float timeDown, timeUp, timeInterval;
     [SerializeField]private float Xaxis,Yaxis,Zaxis;
+    [SerializeField] private bool isTrail;
+    public bool inTheZone;
+    private TrailRenderer trailRenderer;
+    private void Start()
+    {
+        
+    }
     void Update()
     {
         // Check if the left mouse button is pressed
@@ -56,8 +63,8 @@ public class ItemMover : MonoBehaviour
                 timeDown = Time.time;
                 // Get the object and its rigidbody
                 throwGameObject = hit.collider.gameObject;
+                trailRenderer = throwGameObject.GetComponent<TrailRenderer>();
                 rb = throwGameObject.GetComponent<Rigidbody>();
-
                 // Set the object's kinematic state to true
                 rb.isKinematic = true;
 
@@ -73,7 +80,7 @@ public class ItemMover : MonoBehaviour
 
                 // Get the offset of the object from the plane point
                 offset = throwGameObject.transform.position - planePoint;
-
+                lineOn();
                 // Set the dragging flag to true
                 isDragging = true;
             }
@@ -86,10 +93,9 @@ public class ItemMover : MonoBehaviour
         {
             // Get the mouse position
             Vector3 mousePosition = Input.mousePosition;
-
+            
             // Create a ray from the mouse position to the scene
             Ray ray = Camera.main.ScreenPointToRay(mousePosition);
-
             // Get the distance from the ray to the plane
             float distance;
             plane.Raycast(ray, out distance);
@@ -121,9 +127,23 @@ public class ItemMover : MonoBehaviour
             rb.AddForce(velocity.x * Xaxis, velocity.y * Yaxis, -velocity.z * Zaxis/timeInterval,ForceMode.Force);
             // Set the dragging flag to false
             isDragging = false;
-
+            Invoke("lineOff", 2f);
             // Set the thrown flag to true
             isThrown = true;
         }
     }
+
+    public void lineOn( )
+    {
+        trailRenderer.enabled = true;
+    }
+    
+    public void lineOff( )
+    {
+        trailRenderer.enabled = false;
+
+    }
+
+    //object poolig clone etc
+
 }

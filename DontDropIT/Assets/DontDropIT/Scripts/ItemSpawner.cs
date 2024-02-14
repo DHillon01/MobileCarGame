@@ -4,46 +4,41 @@ using UnityEngine;
 
 public class ItemSpawner : MonoBehaviour
 {
+  public Level_items levelItems; // Reference to the scriptable object holding object prefabs
 
-    // Reference the scriptable object
-    public Level_items level_Items;
+    public Transform spawnPosition; // Position to spawn objects
 
-    // Declare the spawn rate, position, and timer
-    public float spawnRate = 1f;
-    public Transform spawnPosition;
-    private float spawnTimer;
-    public bool IsSpawn;
-    void Update()
+    public float spawnRate = 1f; // Rate of spawning
+    private float spawnTimer = 0f;
+    public float deactivate_time;
+    private void Update()
     {
-        Spwan();
-    }
-
-    private void Spwan()
-    {
-
-        if (!IsSpawn) { }
-
-        else
+        // Check if it's time to spawn
+        if (Time.time >= spawnTimer)
         {
-
-            // Update the spawn timer
-            spawnTimer += Time.deltaTime;
-            // Check if the spawn timer reaches the spawn rate
-            if (spawnTimer >= spawnRate)
-            {
-                // Reset the spawn timer
-                spawnTimer = 0f;
-
-                // Get a random index from the array list
-                int index = Random.Range(0, level_Items.gameObjects.Length);
-
-                // Get the game object at the index
-                GameObject item = level_Items.gameObjects[index];
-
-                // Instantiate the game object at the spawn position
-                Instantiate(item, spawnPosition.position, Quaternion.identity);
-            }
+            SpawnObject();
+            spawnTimer = Time.time + spawnRate; // Set the next spawn time
         }
     }
-}
 
+    private void SpawnObject()
+    {
+        // Get a random object prefab from the LevelItems scriptable object
+        GameObject objectPrefab = levelItems.GetRandomObjectPrefab();
+
+        if (objectPrefab != null)
+        {
+            // Instantiate the object at the spawn position
+            GameObject spawnedObject = Instantiate(objectPrefab, spawnPosition.position, Quaternion.identity);
+
+            // Destroy the spawned object after a delay
+            StartCoroutine(DestroyObjectAfterDelay(spawnedObject, deactivate_time));
+        }
+    }
+
+    private IEnumerator DestroyObjectAfterDelay(GameObject obj, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        Destroy(obj);
+    }
+}
