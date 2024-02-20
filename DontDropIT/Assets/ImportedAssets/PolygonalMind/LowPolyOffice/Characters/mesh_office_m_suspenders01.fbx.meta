@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 4e6fd9393b923094db14dc563f557f38
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: be_office_m_suspenders_head01
+  - first:
+      1: 100002
+    second: be_office_m_suspenders_l_hand01
+  - first:
+      1: 100004
+    second: be_office_m_suspenders_l_toes01
+  - first:
+      1: 100006
+    second: be_office_m_suspenders_r_hand01
+  - first:
+      1: 100008
+    second: be_office_m_suspenders_r_toes01
+  - first:
+      1: 100010
+    second: bind_office_m_suspenders_head01
+  - first:
+      1: 100012
+    second: bind_office_m_suspenders_hips01
+  - first:
+      1: 100014
+    second: bind_office_m_suspenders_l_calf01
+  - first:
+      1: 100016
+    second: bind_office_m_suspenders_l_foot01
+  - first:
+      1: 100018
+    second: bind_office_m_suspenders_l_forearm01
+  - first:
+      1: 100020
+    second: bind_office_m_suspenders_l_shoulder01
+  - first:
+      1: 100022
+    second: bind_office_m_suspenders_l_thigh01
+  - first:
+      1: 100024
+    second: bind_office_m_suspenders_l_upperarm01
+  - first:
+      1: 100026
+    second: bind_office_m_suspenders_neck01
+  - first:
+      1: 100028
+    second: bind_office_m_suspenders_r_calf01
+  - first:
+      1: 100030
+    second: bind_office_m_suspenders_r_foot01
+  - first:
+      1: 100032
+    second: bind_office_m_suspenders_r_forearm01
+  - first:
+      1: 100034
+    second: bind_office_m_suspenders_r_shoulder01
+  - first:
+      1: 100036
+    second: bind_office_m_suspenders_r_thigh01
+  - first:
+      1: 100038
+    second: bind_office_m_suspenders_r_upperarm01
+  - first:
+      1: 100040
+    second: bind_office_m_suspenders_spine_a01
+  - first:
+      1: 100042
+    second: bind_office_m_suspenders_spine_b01
+  - first:
+      1: 100044
+    second: bind_office_m_suspenders_spine_c01
+  - first:
+      1: 100046
+    second: mesh_office_m_suspenders01
+  - first:
+      1: 100048
+    second: //RootNode
+  - first:
+      4: 400000
+    second: be_office_m_suspenders_head01
+  - first:
+      4: 400002
+    second: be_office_m_suspenders_l_hand01
+  - first:
+      4: 400004
+    second: be_office_m_suspenders_l_toes01
+  - first:
+      4: 400006
+    second: be_office_m_suspenders_r_hand01
+  - first:
+      4: 400008
+    second: be_office_m_suspenders_r_toes01
+  - first:
+      4: 400010
+    second: bind_office_m_suspenders_head01
+  - first:
+      4: 400012
+    second: bind_office_m_suspenders_hips01
+  - first:
+      4: 400014
+    second: bind_office_m_suspenders_l_calf01
+  - first:
+      4: 400016
+    second: bind_office_m_suspenders_l_foot01
+  - first:
+      4: 400018
+    second: bind_office_m_suspenders_l_forearm01
+  - first:
+      4: 400020
+    second: bind_office_m_suspenders_l_shoulder01
+  - first:
+      4: 400022
+    second: bind_office_m_suspenders_l_thigh01
+  - first:
+      4: 400024
+    second: bind_office_m_suspenders_l_upperarm01
+  - first:
+      4: 400026
+    second: bind_office_m_suspenders_neck01
+  - first:
+      4: 400028
+    second: bind_office_m_suspenders_r_calf01
+  - first:
+      4: 400030
+    second: bind_office_m_suspenders_r_foot01
+  - first:
+      4: 400032
+    second: bind_office_m_suspenders_r_forearm01
+  - first:
+      4: 400034
+    second: bind_office_m_suspenders_r_shoulder01
+  - first:
+      4: 400036
+    second: bind_office_m_suspenders_r_thigh01
+  - first:
+      4: 400038
+    second: bind_office_m_suspenders_r_upperarm01
+  - first:
+      4: 400040
+    second: bind_office_m_suspenders_spine_a01
+  - first:
+      4: 400042
+    second: bind_office_m_suspenders_spine_b01
+  - first:
+      4: 400044
+    second: bind_office_m_suspenders_spine_c01
+  - first:
+      4: 400046
+    second: //RootNode
+  - first:
+      4: 400048
+    second: mesh_office_m_suspenders01
+  - first:
+      21: 2100000
+    second: character
+  - first:
+      43: 4300000
+    second: mesh_office_m_suspenders01
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: mesh_office_m_suspenders01
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3.75
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: bind_office_m_suspenders_hips01
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bind_office_m_suspenders_l_thigh01
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bind_office_m_suspenders_r_thigh01
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bind_office_m_suspenders_l_calf01
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bind_office_m_suspenders_r_calf01
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bind_office_m_suspenders_l_foot01
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bind_office_m_suspenders_r_foot01
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bind_office_m_suspenders_spine_a01
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bind_office_m_suspenders_spine_b01
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bind_office_m_suspenders_neck01
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bind_office_m_suspenders_head01
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bind_office_m_suspenders_l_shoulder01
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bind_office_m_suspenders_r_shoulder01
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bind_office_m_suspenders_l_upperarm01
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bind_office_m_suspenders_r_upperarm01
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bind_office_m_suspenders_l_forearm01
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bind_office_m_suspenders_r_forearm01
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: be_office_m_suspenders_l_hand01
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: be_office_m_suspenders_r_hand01
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bind_office_m_suspenders_spine_c01
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: mesh_office_m_suspenders01(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mesh_office_m_suspenders01
+      parentName: mesh_office_m_suspenders01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bind_office_m_suspenders_hips01
+      parentName: mesh_office_m_suspenders01(Clone)
+      position: {x: -0, y: 1.405042, z: 0.03813394}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bind_office_m_suspenders_l_thigh01
+      parentName: bind_office_m_suspenders_hips01
+      position: {x: -0.15022047, y: -0.037999675, z: -0.00019367784}
+      rotation: {x: 0.00000026633592, y: 0.03277152, z: 0.9994629, w: -0.000008122688}
+      scale: {x: 1.0000019, y: 1.000001, z: 0.99999976}
+    - name: bind_office_m_suspenders_l_calf01
+      parentName: bind_office_m_suspenders_l_thigh01
+      position: {x: -0, y: 0.6457677, z: -1.6653344e-17}
+      rotation: {x: -0.07037595, y: 0.00009380968, z: -0.0013296729, w: 0.99751973}
+      scale: {x: 0.9999998, y: 1.0000002, z: 0.9999998}
+    - name: bind_office_m_suspenders_l_foot01
+      parentName: bind_office_m_suspenders_l_calf01
+      position: {x: -0, y: 0.64361227, z: -4.163336e-18}
+      rotation: {x: 0.4912125, y: 0.07765728, z: -0.044025708, w: 0.86645335}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000004}
+    - name: be_office_m_suspenders_l_toes01
+      parentName: bind_office_m_suspenders_l_foot01
+      position: {x: -0.030620873, y: 0.1691138, z: 0.025979925}
+      rotation: {x: 0.30892727, y: 0.1530865, z: -0.050454758, w: 0.9373275}
+      scale: {x: 1.0000012, y: 1.0000005, z: 1.000001}
+    - name: bind_office_m_suspenders_r_thigh01
+      parentName: bind_office_m_suspenders_hips01
+      position: {x: 0.15022047, y: -0.037999675, z: -0.0023137138}
+      rotation: {x: -0.00000027482088, y: 0.033820294, z: 0.999428, w: 0.000008121269}
+      scale: {x: 1, y: 1.000001, z: 1}
+    - name: bind_office_m_suspenders_r_calf01
+      parentName: bind_office_m_suspenders_r_thigh01
+      position: {x: 3.330669e-17, y: 0.6458581, z: -1.6653344e-17}
+      rotation: {x: -0.07531246, y: -0.000100473095, z: 0.0013302942, w: 0.9971591}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+    - name: bind_office_m_suspenders_r_foot01
+      parentName: bind_office_m_suspenders_r_calf01
+      position: {x: -0, y: 0.64401096, z: 8.326672e-18}
+      rotation: {x: 0.5055857, y: -0.07273789, z: 0.042829767, w: 0.85863733}
+      scale: {x: 1.0000011, y: 1.0000005, z: 1.0000004}
+    - name: be_office_m_suspenders_r_toes01
+      parentName: bind_office_m_suspenders_r_foot01
+      position: {x: 0.022279792, y: 0.17633823, z: 0.026026225}
+      rotation: {x: 0.29836842, y: -0.16735122, z: 0.053223852, w: 0.93815625}
+      scale: {x: 0.9999998, y: 1.0000004, z: 1.0000002}
+    - name: bind_office_m_suspenders_spine_a01
+      parentName: bind_office_m_suspenders_hips01
+      position: {x: -0, y: 0.06857028, z: -0.004249665}
+      rotation: {x: -0.030943152, y: -0, z: -0, w: 0.99952114}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bind_office_m_suspenders_spine_b01
+      parentName: bind_office_m_suspenders_spine_a01
+      position: {x: -0, y: 0.08015212, z: 0}
+      rotation: {x: -0.000000029802322, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bind_office_m_suspenders_spine_c01
+      parentName: bind_office_m_suspenders_spine_b01
+      position: {x: -0, y: 0.09160241, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bind_office_m_suspenders_l_shoulder01
+      parentName: bind_office_m_suspenders_spine_c01
+      position: {x: -0.07927855, y: 0.09085058, z: -0.0012011812}
+      rotation: {x: 0.53297937, y: -0.46340227, z: 0.5411055, w: 0.45650432}
+      scale: {x: 1.0000002, y: 1.0000008, z: 1.0000004}
+    - name: bind_office_m_suspenders_l_upperarm01
+      parentName: bind_office_m_suspenders_l_shoulder01
+      position: {x: -1.6653344e-17, y: 0.16611737, z: 0}
+      rotation: {x: -0.054655436, y: -0.09330223, z: 0.0010460318, w: 0.99413604}
+      scale: {x: 0.9999998, y: 1.0000005, z: 1.0000002}
+    - name: bind_office_m_suspenders_l_forearm01
+      parentName: bind_office_m_suspenders_l_upperarm01
+      position: {x: -0, y: 0.5026097, z: 0}
+      rotation: {x: -0.019107226, y: 0.0026900694, z: -0.038137246, w: 0.99908626}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.9999998}
+    - name: be_office_m_suspenders_l_hand01
+      parentName: bind_office_m_suspenders_l_forearm01
+      position: {x: 1.6653344e-17, y: 0.50825894, z: 2.664535e-16}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: bind_office_m_suspenders_neck01
+      parentName: bind_office_m_suspenders_spine_c01
+      position: {x: -0, y: 0.10305283, z: 0.000000012762102}
+      rotation: {x: 0.030943181, y: -0, z: 0, w: 0.99952114}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bind_office_m_suspenders_head01
+      parentName: bind_office_m_suspenders_neck01
+      position: {x: -0, y: 0.03471336, z: 0.0021758995}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: be_office_m_suspenders_head01
+      parentName: bind_office_m_suspenders_head01
+      position: {x: -0, y: 0.43811357, z: 0.027461773}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bind_office_m_suspenders_r_shoulder01
+      parentName: bind_office_m_suspenders_spine_c01
+      position: {x: 0.07927855, y: 0.09079563, z: -0.00031467524}
+      rotation: {x: -0.5361271, y: -0.4608174, z: 0.5382944, w: -0.45875305}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: bind_office_m_suspenders_r_upperarm01
+      parentName: bind_office_m_suspenders_r_shoulder01
+      position: {x: -0, y: 0.16611737, z: 0}
+      rotation: {x: 0.054362737, y: -0.10982135, z: 0.008451789, w: -0.99242765}
+      scale: {x: 1.0000001, y: 1.0000008, z: 1.0000001}
+    - name: bind_office_m_suspenders_r_forearm01
+      parentName: bind_office_m_suspenders_r_upperarm01
+      position: {x: -0, y: 0.5030406, z: 0}
+      rotation: {x: -0.020806843, y: -0.003423735, z: 0.03734765, w: 0.9990799}
+      scale: {x: 0.99999976, y: 1.0000001, z: 1.0000001}
+    - name: be_office_m_suspenders_r_hand01
+      parentName: bind_office_m_suspenders_r_forearm01
+      position: {x: -1.6653344e-17, y: 0.50871176, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000008, z: 1.0000005}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 3.75
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

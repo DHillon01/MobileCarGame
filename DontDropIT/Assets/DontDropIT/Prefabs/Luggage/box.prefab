@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8424770991420839252}
   - component: {fileID: 3073505410414287150}
   - component: {fileID: 1868599175352133723}
+  - component: {fileID: 6180321879413012251}
   m_Layer: 11
   m_Name: box
   m_TagString: Luggage
@@ -151,6 +152,8 @@ MonoBehaviour:
   Xaxis: 1
   Yaxis: 1.51
   Zaxis: 2
+  isTrail: 0
+  inTheZone: 0
 --- !u!96 &1868599175352133723
 TrailRenderer:
   serializedVersion: 3
@@ -264,3 +267,16 @@ TrailRenderer:
   m_Autodestruct: 0
   m_Emitting: 1
   m_ApplyActiveColorSpace: 1
+--- !u!114 &6180321879413012251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7448447506056521093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77bb5f190d56be64d891a2413c377d02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreValue: 10

@@ -12,11 +12,9 @@ public class ItemMover : MonoBehaviour
     private Vector3 offset;
     private Vector3 velocity;
     private bool isDragging;
-    private bool isThrown;
     private float timeDown, timeUp, timeInterval;
     [SerializeField]private float Xaxis,Yaxis,Zaxis;
     [SerializeField] private bool isTrail;
-    public bool inTheZone;
     private TrailRenderer trailRenderer;
     private void Start()
     {
@@ -115,7 +113,7 @@ public class ItemMover : MonoBehaviour
     void OnMouseUp()
     {
         // Check if the object is being dragged
-        if (isDragging)
+        if (isDragging && rb != null)
         {
             timeUp = Time.time;
             timeInterval = timeDown - timeUp;
@@ -129,7 +127,6 @@ public class ItemMover : MonoBehaviour
             isDragging = false;
             Invoke("lineOff", 2f);
             // Set the thrown flag to true
-            isThrown = true;
         }
     }
 

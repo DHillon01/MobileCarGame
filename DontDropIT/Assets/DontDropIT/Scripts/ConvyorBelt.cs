@@ -17,6 +17,7 @@ public class ConvyorBelt : MonoBehaviour
          rb = GetComponent<Rigidbody>();
         material = GetComponent<Renderer>().material;
     }
+
     private void FixedUpdate()
     {
         Vector3 pos = rb.position;

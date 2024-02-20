@@ -29,16 +29,16 @@ public class ItemSpawner : MonoBehaviour
         if (objectPrefab != null)
         {
             // Instantiate the object at the spawn position
-            GameObject spawnedObject = Instantiate(objectPrefab, spawnPosition.position, Quaternion.identity);
+            Instantiate(objectPrefab, spawnPosition.position, Quaternion.identity);
 
             // Destroy the spawned object after a delay
-            StartCoroutine(DestroyObjectAfterDelay(spawnedObject, deactivate_time));
+           // StartCoroutine(DestroyObjectAfterDelay(spawnedObject, deactivate_time));
         }
     }
-
+/*
     private IEnumerator DestroyObjectAfterDelay(GameObject obj, float delay)
     {
         yield return new WaitForSeconds(delay);
         Destroy(obj);
-    }
+    }*/
 }

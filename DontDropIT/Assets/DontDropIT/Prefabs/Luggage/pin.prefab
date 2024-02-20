@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3158411270499179027}
   - component: {fileID: 1464074110502727464}
   - component: {fileID: 3704509517375135129}
+  - component: {fileID: 5397374194979860562}
   m_Layer: 11
   m_Name: pin
   m_TagString: Luggage
@@ -151,6 +152,8 @@ MonoBehaviour:
   Xaxis: 1
   Yaxis: 1.51
   Zaxis: 2
+  isTrail: 0
+  inTheZone: 0
 --- !u!96 &3704509517375135129
 TrailRenderer:
   serializedVersion: 3
@@ -264,3 +267,16 @@ TrailRenderer:
   m_Autodestruct: 0
   m_Emitting: 1
   m_ApplyActiveColorSpace: 1
+--- !u!114 &5397374194979860562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4770541900724343260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77bb5f190d56be64d891a2413c377d02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreValue: 10
